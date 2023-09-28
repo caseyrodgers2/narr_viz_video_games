@@ -1,0 +1,139 @@
+/*Notes
+
+CS 416 Narrative Visualization
+Casey Rodgers
+
+Color Wheel
+- https://www.canva.com/colors/color-wheel/
+
+References
+- https://www.w3schools.com/howto/howto_js_tabs.asp
+- https://www.essycode.com/posts/adding-gridlines-chart-d3/
+- https://www.javatpoint.com/how-to-center-a-button-in-css
+- https://stackoverflow.com/questions/24053383/table-border-is-not-working-table-row-tr-border-is-not-appear-using-css
+- https://developer.mozilla.org/en-US/docs/Web/CSS/Type_selectors
+- https://www.w3schools.com/html/html_table_styling.asp
+- https://www.w3schools.com/html/html_table_padding_spacing.asp
+
+*/
+
+/* Body */
+body {
+    background-color: black;
+}
+div {
+    color: white;
+    fill: white;
+}
+a {
+    color: white;
+}
+
+
+/* Graph */
+.axis-grid line {
+    stroke: #425376;
+}
+.label .y {
+    fill: white;
+}
+.graph_title {
+    fill: white;
+}
+
+
+/* Annotations */
+.annotation path {
+    stroke: white;
+    fill: none;
+}
+.annotation path.connector-arrow {
+    fill: white;
+}
+.annotation text {
+    fill: white;
+}
+.annotation-note-title {
+    font-weight: bold;
+}
+
+
+/* Comp nav */
+nav {
+	width: 100%;
+	margin: 0;
+}
+li.topnav {
+	float: left;
+}
+ul.topnav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.navlink {
+	text-decoration: none;
+	color: white;
+	padding: 14px 16px;
+	display: block;
+	text-align: center;
+	width: 100%;
+    background-color: #405916;
+    cursor: pointer;
+}
+.navlink:hover:not(.active) {
+	color: black;
+	background-color: #5e8521;
+}
+.active {
+	background-color: #212e0b;
+}
+
+
+/* Table */
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    color: white;
+}
+
+table tr {
+    border-bottom: 1px solid #ddd;
+}
+
+table th, td {
+    padding: 10px;
+}
+
+
+/* Divs */
+#information {
+    margin-left: auto;
+    margin-right:auto;
+    width: 75%;
+    text-align: center;
+}
+
+.tabcontent {
+    margin-left: auto;
+    margin-right:auto;
+    width: 100%;
+    text-align: center;
+}
+
+#intro, #beginning {
+    margin-left: auto;
+    margin-right:auto;
+    width: 75%;
+    text-align: center;
+}
+
+nav {
+    margin: auto;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+}

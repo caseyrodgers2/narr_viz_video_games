@@ -1,0 +1,70 @@
+<html>
+<!-- Notes
+
+CS 416 Narrative Visualization
+Casey Rodgers
+
+References
+// Data
+- https://www.kaggle.com/datasets/gregorut/videogamesales?resource=download
+
+// Main Coding References
+- https://www.w3schools.com/howto/howto_js_tabs.asp
+
+Other References are in their respective files.
+
+-->
+<head>
+    <!-- JS Libraries -->
+    <script src='https://d3js.org/d3.v5.min.js'></script>
+    <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
+
+    <!-- Link to my CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+    
+<!-- Body -->
+<body onload='init()'>
+<div id="intro">
+    <h1>Video Game Sales</h1>
+    <h2>Casey Rodgers</h2>
+    <p>Video games are a very popular pasttime and have only gotten more popular in recent years with the increased availability and advancement of computers and technology. This visualization uses a dataset with over 16,500 sales of different video games that made over 100,000 global sales.</p>
+    <p>Data Reference: <a href="https://www.kaggle.com/datasets/gregorut/videogamesales?resource=download">Here</a></p>
+    
+</div>
+    
+<nav>
+    <ul class="topnav">
+        <li class="topnav"><button class="navlink active" onclick="openTab(event, 'byOverview')">1.) Overview</button></li>
+        <li class="topnav"><button class="navlink" onclick="openTab(event, 'byPlatform')">2.) By Console</button></li>
+        <li class="topnav"><button class="navlink" onclick="openTab(event, 'byGenre')">3.) By Genre</button></li>
+    </ul>
+</nav>
+    
+<div id="beginning"><p>Over time, video games have become increasingly popular with the advancement of technology. There was a huge spike around 2008 with a decrease afterwards. This decrease could be due to the data not being updated and / or current sales. Click on the line to bring up total global sales over time and the top selling video games! Underneath the graph is also a table that shows the top 50 selling games!</p></div>
+
+<!-- Overview Graph -->
+<div class="tabcontent" id="byOverview">
+</div>
+    
+<!-- By Platform Graph -->
+<div class="tabcontent" id="byPlatform" style="display:none;">
+</div>
+    
+<!-- By Genre Graph -->
+<div class="tabcontent" id="byGenre" style="display:none;">
+</div>
+    
+<!-- Information -->
+<div id="information">
+</div>
+    
+<div id="tooltip" style="opacity:0;">
+</div>
+   
+</body>
+    
+<!-- My JS Scripts -->
+<script type="text/javascript" src="main_viz.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+</html>
