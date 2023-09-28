@@ -12,14 +12,14 @@ The third tab shows the video game sales over time for each genre. This is simil
 
 The first figure shows the beginning text and the tabs for the different sorting types.
 
-<img src="readme_imgs/beginning_text.JPG" alt="Beginning text and tabs for the different sorting types" width="400"/>
+<img src="readme_imgs/beginning_text.JPG" alt="Beginning text and tabs for the different sorting types" width="800"/>
 
 The second figure shows the graph for total video game sales sorted by different consoles. In the figure, the line for PS is selected and highlighted with the top 3 selling games labeled at their respective years.
 
-<img src="readme_imgs/second_tab_graph.JPG" alt="Graph of video game sales sorted by different consoles" width="400"/>
+<img src="readme_imgs/second_tab_graph.JPG" alt="Graph of video game sales sorted by different consoles" width="800"/>
 
 The third figure shows a table of the top 50 selling Role Playing games along with the total global sales over the genre's lifetime. The table contains additional information about each game.
 
-<img src="readme_imgs/third_tab_table.JPG" alt="Graph of video game sales sorted by different consoles" width="400"/>
+<img src="readme_imgs/third_tab_table.JPG" alt="Graph of video game sales sorted by different consoles" width="800"/>
 
 The data came from <a href="https://www.kaggle.com/datasets/gregorut/videogamesales?resource=download" target="_blank">here</a>. References for the project can be seen in the code itself.
