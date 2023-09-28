@@ -1,6 +1,6 @@
 # Narrative Visualization for Video Game Sales Data
 
-This GitHub repository is my code for a narrative visualization involving video game sales data over time using Javascript and D3. I solo developed this for my final project for the graduate version of CS 416: Data Visualization. The focus on this project was learning D3 and creating a narrative visualization rather than the aesthetics.
+This GitHub repository is my code for a narrative visualization involving video game sales data over time using Javascript and D3. I solo developed this for my final project for the graduate version of CS 416: Data Visualization. The focus on this project was learning D3 and creating a narrative visualization.
 
 The script in action can be found <a href="https://caseyrodgers.online/custom_files/cs416_narr_viz/index.html" target="_blank">here</a>.
 
